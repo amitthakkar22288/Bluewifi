@@ -5188,8 +5188,8 @@ Social Icons
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
   border-radius: 2px;
-  width: 28px;
-  height: 28px;
+  width: 40px;
+  height: 40px;
   display: block;
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -5200,7 +5200,7 @@ Social Icons
   -webkit-transition: all 0.3s ease-in-out;
 }
 .social-icons li:hover > a {
-  background-position: 0 -38px;
+  background-position: 0 -55px;
 }
 .social-icons li .amazon {
   background: url(../img/social/amazon.png) no-repeat;
@@ -5224,7 +5224,7 @@ Social Icons
   background: url(../img/social/evernote.png) no-repeat;
 }
 .social-icons li .facebook {
-  background: url(../img/social/facebook.png) no-repeat;
+  background: rgba(0, 0, 0, 0) url("../img/social/facebook.png") no-repeat scroll 0 0 / 40px auto;
 }
 .social-icons li .forrst {
   background: url(../img/social/forrst.png) no-repeat;
@@ -5233,7 +5233,7 @@ Social Icons
   background: url(../img/social/github.png) no-repeat;
 }
 .social-icons li .googleplus {
-  background: url(../img/social/googleplus.png) no-repeat;
+  background: url(../img/social/googleplus.png) no-repeat scroll 0 0 / 40px auto;
 }
 .social-icons li .jolicloud {
   background: url(../img/social/jolicloud.png) no-repeat;
@@ -5242,7 +5242,7 @@ Social Icons
   background: url(../img/social/last-fm.png) no-repeat;
 }
 .social-icons li .linkedin {
-  background: url(../img/social/linkedin.png) no-repeat;
+  background: url(../img/social/linkedin.png) no-repeat no-repeat scroll 0 0 / 40px auto;
 }
 .social-icons li .picasa {
   background: url(../img/social/picasa.png) no-repeat;
@@ -5315,7 +5315,7 @@ Social Icons
 }
 .social-icons.social-icons-color > li > a {
   opacity: 0.7;
-  background-position: 0 -38px !important;
+  background-position: 0 -55px !important;
 }
 .social-icons.social-icons-color > li > a:hover {
   opacity: 1;
@@ -5329,8 +5329,8 @@ Inline Social Icons
 ***/
 .social-icon {
   display: inline-block !important;
-  width: 28px;
-  height: 28px;
+  width: 40px;
+  height: 40px;
   background-position: 0 0;
   background-repeat: no-repeat;
   -webkit-border-radius: 2px;
@@ -5370,7 +5370,7 @@ Inline Social Icons
   background: url(../img/social/evernote.png) no-repeat;
 }
 .social-icon.facebook {
-  background: url(../img/social/facebook.png) no-repeat;
+  background: url(../img/social/facebook.png) no-repeat scroll 0 0 / 40px auto;
 }
 .social-icon.forrst {
   background: url(../img/social/forrst.png) no-repeat;
@@ -5379,7 +5379,7 @@ Inline Social Icons
   background: url(../img/social/github.png) no-repeat;
 }
 .social-icon.googleplus {
-  background: url(../img/social/googleplus.png) no-repeat;
+  background: url(../img/social/googleplus.png) no-repeat scroll 0 0 / 40px auto;
 }
 .social-icon.jolicloud {
   background: url(../img/social/jolicloud.png) no-repeat;
@@ -5460,7 +5460,7 @@ Inline Social Icons
   background: url(../img/social/quora.png) no-repeat;
 }
 .social-icon:hover {
-  background-position: 0 -38px;
+  background-position: 0 -55px;
 }
 
 .social-icon-color {
