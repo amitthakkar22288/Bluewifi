@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+<meta charset="utf-8"/>
+<title>Super Admin Company</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css">
+<link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css">
+<link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN PAGE LEVEL STYLES -->
+
+
+<!-- END PAGE LEVEL STYLES -->
+<!-- BEGIN THEME STYLES -->
+<link href="assets/global/css/components.css" id="style_components" rel="stylesheet" type="text/css">
+<link href="assets/global/css/plugins.css" rel="stylesheet" type="text/css">
+<link href="assets/admin/layout3/css/layout.css" rel="stylesheet" type="text/css">
+<link href="assets/admin/layout3/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color">
+<link href="assets/admin/layout3/css/custom.css" rel="stylesheet" type="text/css">
+<!-- END THEME STYLES -->
+<link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<!-- DOC: Apply "page-header-menu-fixed" class to set the mega menu fixed  -->
+<!-- DOC: Apply "page-header-top-fixed" class to set the top menu fixed  -->
+<body>
+<!-- BEGIN HEADER -->
+<div class="page-header">
+	<!-- BEGIN HEADER TOP -->
+	<div class="page-header-top">
+		<div class="container">
+			<!-- BEGIN LOGO -->
+			<div class="page-logo">
+				<a href="index.html"><img class="margin-top-10" src="img/logo-big.png" width="136" height="50"></a>
+                <h4 class="pull-right" style="margin:40px 0 0 0">Super Admin</h4>
+		  </div>
+          
+			<!-- END LOGO -->
+			<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+			<a href="javascript:;" class="menu-toggler"></a>
+			<!-- END RESPONSIVE MENU TOGGLER -->
+			<!-- BEGIN TOP NAVIGATION MENU -->
+			<div class="top-menu">
+				<ul class="nav navbar-nav pull-right">
+					
+					<li class="dropdown dropdown-user dropdown-dark">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+						<img alt="" class="img-circle" src="assets/admin/layout3/img/avatar9.jpg">
+						<span class="username username-hide-mobile">Nick</span>
+						</a>
+						<ul class="dropdown-menu dropdown-menu-default">
+							<li>
+								<a href="extra_profile.html">
+								<i class="icon-user"></i> My Profile </a>
+							</li>
+							<li>
+								<a href="page_calendar.html">
+								<i class="icon-calendar"></i> My Calendar </a>
+							</li>
+							<li>
+								<a href="inbox.html">
+								<i class="icon-envelope-open"></i> My Inbox <span class="badge badge-danger">
+								3 </span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+								<i class="icon-rocket"></i> My Tasks <span class="badge badge-success">
+								7 </span>
+								</a>
+							</li>
+							<li class="divider">
+							</li>
+							<li>
+								<a href="extra_lock.html">
+								<i class="icon-lock"></i> Lock Screen </a>
+							</li>
+							<li>
+								<a href="login.html">
+								<i class="icon-key"></i> Log Out </a>
+							</li>
+						</ul>
+					</li>
+					<!-- END USER LOGIN DROPDOWN -->
+				</ul>
+			</div>
+		  <!-- END TOP NAVIGATION MENU -->
+		</div>
+	</div>
+	<!-- END HEADER TOP -->
+	<!-- BEGIN HEADER MENU -->
+	<div class="page-header-menu">
+		<div class="container">
+			<!-- BEGIN HEADER SEARCH BOX -->
+            
+			<form class="search-form" action="extra_search.html" method="GET">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search" name="query">
+					<span class="input-group-btn">
+					<a href="javascript:;" class="btn submit"><i class="icon-magnifier"></i></a>
+					</span>
+				</div>
+			</form>
+			<!-- END HEADER SEARCH BOX -->
+			<!-- BEGIN MEGA MENU -->
+			<!-- DOC: Apply "hor-menu-light" class after the "hor-menu" class below to have a horizontal menu with white background -->
+			<!-- DOC: Remove data-hover="dropdown" and data-close-others="true" attributes below to disable the dropdown opening on mouse hover -->
+			<div class="hor-menu ">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="su_dashboard.html">Dashboard</a>
+					</li>
+					<li>
+						<a href="#">Payment Log</a>
+					</li>
+				</ul>
+			</div>
+			<!-- END MEGA MENU -->
+		</div>
+	</div>
+	<!-- END HEADER MENU -->
+</div>
+<!-- END HEADER -->
+<!-- BEGIN PAGE CONTAINER -->
+<div class="page-container">
+	<!-- BEGIN PAGE HEAD -->
+	<div class="page-head">
+		<div class="container">
+			<!-- BEGIN PAGE TITLE -->
+			<div class="page-title">
+				<h1>Company <small></small></h1>
+			</div>
+            
+			<!-- END PAGE TITLE -->
+			<!-- BEGIN PAGE TOOLBAR -->
+			<div class="page-toolbar">
+				<div class="btn-group bootstrap-select bs-select input-small margin-top-10"><button data-toggle="dropdown" class="btn dropdown-toggle selectpicker red" type="button" title="Mustard"><span class="filter-option pull-left">Company</span>&nbsp;<span class="caret"></span></button><div class="dropdown-menu open"><ul role="menu" class="dropdown-menu inner selectpicker">
+                <li data-original-index="0" class="selected">
+                <a href="su_company.html" data-normalized-text="&lt;span class=&quot;text&quot;&gt;Mustard&lt;/span&gt;" class="" tabindex="0">
+                <span class="text">Company</span>
+                <span class="fa fa-check check-mark"></span>
+                </a>
+                </li>
+                <li data-original-index="1">
+                <a href="su_user.html" data-normalized-text="&lt;span class=&quot;text&quot;&gt;Ketchup&lt;/span&gt;" class="" tabindex="0">
+                <span class="text">User</span>
+                <span class="fa fa-check check-mark"></span>
+                </a>
+                </li>
+                </ul></div></div>
+                
+                <div class="btn-group bootstrap-select bs-select margin-top-10 input-medium"><button data-toggle="dropdown" class="btn dropdown-toggle selectpicker btn-success" type="button" title="Mustard"><span class="filter-option pull-left">Create Company +</span>&nbsp;<span class="caret"></span></button><div class="dropdown-menu open"><ul role="menu" class="dropdown-menu inner selectpicker"><li data-original-index="0" class="selected"><a data-normalized-text="&lt;span class=&quot;text&quot;&gt;Mustard&lt;/span&gt;" class="" tabindex="0"><span class="text">Company 1</span><span class="fa fa-check check-mark"></span></a></li><li data-original-index="1"><a data-normalized-text="&lt;span class=&quot;text&quot;&gt;Ketchup&lt;/span&gt;" class="" tabindex="0"><span class="text">Company 2</span><span class="fa fa-check check-mark"></span></a></li><li data-original-index="2"><a data-normalized-text="&lt;span class=&quot;text&quot;&gt;Relish&lt;/span&gt;" class="" tabindex="0"><span class="text">Company 3</span><span class="fa fa-check check-mark"></span></a></li></ul></div></div>
+				<div class="btn-group btn-theme-panel">
+				<button type="button" class="btn btn-circle btn-danger btn-sm">Lock user Account</button>
+				</div>
+			
+			</div>
+			<!-- END PAGE TOOLBAR -->
+		</div>
+	</div>
+	<!-- END PAGE HEAD -->
+	<!-- BEGIN PAGE CONTENT -->
+	<div class="page-content">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-6">	
+                            <div class="portlet light">
+                        <div class="portlet-title">
+                         <div class="caption">
+                        <span class="caption-subject font-purple-intense bold uppercase">Country Oven Restro</span>
+                        <h4>Created on 25-Jan 2015</h4>
+                        </div>
+                        <button class="btn btn-circle btn-danger btn-sm" style="float: right;" type="button">Button</button>
+                        </div>
+                          <div class="row">
+                             <div class="col-md-1"></div>
+                          	<div style="background:#cc5e5e" class="col-md-4 text-center">	
+                            <h2>3</h2>
+                            <p>Access Points</p>	
+                          	</div> 
+                             <div class="col-md-1"></div>
+                            <div style="background:#45b6af" class="col-md-5 text-center">
+                            <h2>4058</h2>
+                            <p>Check In's</p>	
+                          	</div> 
+                            <div class="col-md-1"></div>
+                          </div>
+                        </div>
+                            </div>
+                            <div class="col-md-6">	
+                            <div class="portlet light">
+                        <div class="portlet-title">
+                         <div class="caption">
+                        <span class="caption-subject font-purple-intense bold uppercase">Validity 10th Sep</span>
+                        </div>
+                        <button class="btn btn-circle btn-danger btn-sm" style="float: right;" type="button">Recharge +</button>
+                        </div>
+                        	</div>
+           					 </div>
+            
+			<!-- END PAGE CONTENT INNER -->
+		</div>
+        <div class="row">
+			<div class="col-md-6">	
+                            <div class="portlet light">
+                        <div class="portlet-title">
+                         <div class="caption">
+                        <span class="caption-subject font-purple-intense bold uppercase">Save your Input</span>
+                        </div>
+                        </div>
+                          <div class="portlet-body form">
+								<form role="form">
+									<div class="form-body">
+										<div class="form-group form-md-line-input has-info">
+											<input type="text" placeholder="type Name" id="form_control_1" class="form-control">
+											<label for="form_control_1">Contact Person</label>
+										</div>
+                                        <div class="form-group form-md-line-input has-info">
+											<input type="text" placeholder="Number" id="form_control_1" class="form-control">
+											<label for="form_control_1">Phone No</label>
+										</div>
+                                        <div class="form-group form-md-line-input has-info">
+											<input type="text" placeholder="Type your Email Address" id="form_control_1" class="form-control">
+											<label for="form_control_1">Email</label>
+										</div>
+										</div>
+									<div class="form-actions noborder">
+										<button class="btn blue" type="button">Save</button>
+										<button class="btn default" type="button">Cancel</button>
+									</div>
+								</form>
+							</div>
+                        </div>
+                            </div>
+                            <div class="col-md-6">	
+                            <div class="portlet light">
+                        <div class="portlet-title">
+                         <div class="caption">
+                        <span class="caption-subject font-purple-intense bold uppercase">Login Here</span>
+                        </div>
+                       </div>
+                       <div class="portlet-body form">
+								<form role="form">
+									<div class="form-body">
+										<div class="form-group form-md-line-input has-info">
+											<input type="text" placeholder="Type Your Username" id="form_control_1" class="form-control">
+											<label for="form_control_1">User Name</label>
+										</div>
+                                        <div class="form-group form-md-line-input has-info">
+											<input type="text" placeholder="*******" id="form_control_1" class="form-control">
+											<label for="form_control_1">Password</label>
+										</div>
+                                        
+										</div>
+									<div class="form-actions noborder">
+										<button class="btn blue" type="button">Save</button>
+										<button class="btn default" type="button">Cancel</button>
+                                    </div>
+                                    <div class="alert alert-success">
+									<strong>*Last Login -</strong> 25-02-2015.
+								</div>
+								</form>
+							</div>
+                        	</div>
+           					 </div>
+            
+			<!-- END PAGE CONTENT INNER -->
+		</div>
+        
+	</div>
+	<!-- END PAGE CONTENT -->
+</div>
+<!-- END PAGE CONTAINER -->
+
+<!-- BEGIN FOOTER -->
+<div class="page-footer">
+	<div class="container">
+		 2014 &copy; Blue WIFI by Blue WIFI.
+	</div>
+</div>
+<div class="scroll-to-top">
+	<i class="icon-arrow-up"></i>
+</div>
+<!-- END FOOTER -->
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="assets/global/plugins/respond.min.js"></script>
+<script src="assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+<script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="assets/global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+
+
+
+
+
+<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
